@@ -1,1 +1,1 @@
-# landing_page
+This is a template landing page that displays my knowledge of html and css
