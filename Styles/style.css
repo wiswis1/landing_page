@@ -65,16 +65,17 @@ a{
 
 .hero-container{
     display: flex;
-    padding: 30px;
-    margin: 50px 0px;
+    padding: 0px 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     justify-content: space-between;
 
 }
 
 .hero-image{
     background-color: grey;
-    min-width: 40%;
-    max-height: 20%;
+    min-width: 50%;
+    min-height: 90%;
     text-align:center;
 
 }
