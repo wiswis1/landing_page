@@ -24,14 +24,16 @@ a{
     color: #E5e7eb;
 }
 
-img{
+
+.image{
     min-width: 150px;
     min-height: 150px;
     border-radius: 20px;
-    border: 2px;
+    border: 3px;
     border-style: solid;
     border-color: #3882f6;
 }
+
 
 .hero, 
 .footer, 
@@ -62,11 +64,26 @@ img{
 }
 
 .hero-container{
-   display: flex;
-
+    display: flex;
     padding: 30px;
+    margin: 50px 0px;
     justify-content: space-between;
 
+}
+
+.hero-image{
+    background-color: grey;
+    min-width: 40%;
+    max-height: 20%;
+    text-align:center;
+
+}
+
+
+
+.text-container{
+    width: fit-content;
+    /* text-wrap: wrap; */
 }
 
 .information-container{
@@ -80,6 +97,7 @@ img{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    margin-bottom: 80px;
 
     
 }
@@ -105,17 +123,20 @@ img{
 .hero.text{
     font-size:48px ;
     font-weight: bolder;
+    width: 70%;
 }
 
 .information.text{
     font-size:36px;
+    font-weight: bolder;
     color: #1F2937;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.subtext{
+.hero-subtext{
     font-size: 18px;
+    width:70%;
 }
 
 .quote-container{
@@ -128,7 +149,7 @@ img{
 }
 
 .quote{
-    padding:100px 30%;
+    padding:5% 20%;
 }
 
 .quote.text{
@@ -154,9 +175,11 @@ img{
 .call-to-action-container{
     display: flex;
     background-color: #3882f6;
+    width: 80%;
     color: #F9FAF8;
     border-radius: 10px;
-    margin: 20px;
+    margin: 80px;
+    padding: 0px 10px;
     min-width: 40%;
     justify-content: space-evenly;
 }
@@ -165,7 +188,6 @@ img{
     display: flex;
     flex-direction: column;
     padding: 40px 80px;
-    /* padding:100px 30%; */
 }
 
 .call.text{
@@ -185,11 +207,32 @@ img{
     
 }
 
-button{
+
+.hero-button{
+    font-weight:bolder;
+    height: 40px;
+    margin: 10px 0px;
+    border:#3882f6;
+    border-style:solid;
     border-radius: 8px;
-    border-style: solid;
-    border-width: 1px;
-    color:#E5e7eb;
+    padding: 10px 20px;
+    color: #E5e7eb;
     background-color: #3882f6;
-    padding: auto 20px;
+    border-width: 2px;
+    font-size: 18px;  
+}
+
+.action-button{
+    font-weight:bolder;
+    height: fit-content;
+    width:fit-content;
+    margin: 50px 40px;
+    border: #E5e7eb;
+    border-style:solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: #E5e7eb;
+    background-color: #3882f6;
+    border-width: 2px;
+    font-size: 18px;
 }
